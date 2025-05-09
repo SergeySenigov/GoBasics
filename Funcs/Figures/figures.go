@@ -25,7 +25,7 @@ func area(fig figures) (func(float64) float64, bool) {
 		}
 	case triangle:
 		{
-			return func(x float64) float64 { return float64(x * x * 0.433gi) }, true
+			return func(x float64) float64 { return float64(x * x * 0.433) }, true
 		}
 	default:
 		return nil, false
